@@ -64,8 +64,8 @@ function M.setup()
     NonText = { fg = c.dark3 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal = { fg = c.fg, bg = options.transparent and c.none or c.bg }, -- normal text
     NormalNC = { fg = c.fg, bg = options.transparent and c.none or options.dim_inactive and c.bg_dark or c.bg }, -- normal text in non-current windows
-    NormalSB = { fg = c.fg_sidebar, bg = c.bg_sidebar }, -- normal text in sidebar
-    NormalFloat = { fg = c.fg_float, bg = bg_float_configured }, -- Normal text in floating windows.
+    NormalSB = { fg = c.fg_sidebar, bg = c.none }, -- normal text in sidebar
+    NormalFloat = { fg = c.fg_float, bg = c.none }, -- Normal text in floating windows.
     FloatBorder = { fg = c.green, bg = bg_float_configured },
     FloatTitle = { fg = c.cyan, bg = bg_float_configured },
     Pmenu = { bg = c.bg_popup, fg = c.fg }, -- Popup menu: normal item.
