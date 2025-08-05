@@ -231,7 +231,7 @@ function M.setup()
     ["@function.macro"] = { link = "Macro" },
     ["@keyword.import"] = { link = "Include" },
     ["@keyword.coroutine"] = { link = "@keyword" },
-    ["@keyword.operator"] = { link = "@operator" },
+    ["@keyword.operator"] = { link = "@keyword" },
     ["@keyword.return"] = { link = "@keyword" },
     ["@function.method"] = { link = "Function" },
     ["@function.method.call"] = { link = "@function.method" },
